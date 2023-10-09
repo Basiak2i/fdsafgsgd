@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="list">
+        Cuś
+
+        <select name="dzialanie" id="dzialanie">
+          <option value="+">dodawanie</option>
+          <option value="-">odejmowanie</option>
+          <option value="*">mnozenie</option>
+          <option value="/">dzielenie</option>
+        </select>
+      </label>
+      <label for="num1">
+        <input type="number" id="num1" />
+      </label>
+      <label for="num2">
+        <input type="number" id="num2" />
+      </label>
+      <button id="liczenie">oblicz</button>
+    </form>
+    <p id="wynik"></p>
+  </body>
+</html>
